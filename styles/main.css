@@ -1,0 +1,357 @@
+/* ACADEMY STYLE SHEET */
+/* AUTHOR: Jack Dipper */
+
+/* PNG TRANSPARENCY FIX*/
+* html img { behavior: url(http://www.star-fleet.com/images/iefix/pngbehavior.htc); }
+
+/* GLOBAL STYLES */
+dt {
+ font-weight: bold;
+ padding-top: 0.25em;
+}
+
+.colored dt{
+ color: #FFCC00;
+}
+
+a:LINK, a:VISITED
+{
+color : #80C0FF;
+background-color: transparent;
+text-decoration:none;
+font-weight:bold;
+font-style:normal;
+}
+
+a:HOVER {
+color : #FFFFFF;
+background-color: transparent;
+text-decoration : none;
+font-weight:bold;
+font-style:normal;
+}
+
+a.email
+{
+	color:#FFFFFF;
+	background-color: transparent;
+}
+
+body
+{
+	background: #000033 url(none);
+	color: #FFFFFF;
+	font-size: small;
+	text-align: justify;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 1%;
+	position: relative;
+}
+
+p
+{
+	line-height:1.5em;
+}
+
+p.left
+{
+	text-align: left;
+}
+
+h1{
+	color: #FFCC00;
+	background-color: transparent;
+	font-size: xx-large;
+	text-align: center;
+	font-weight: normal;
+	margin: 0;
+}
+
+h2{
+	color: #FFCC00;
+	background-color: transparent;
+	font-size: x-large;
+	text-align:center;
+	font-weight: normal;
+}
+
+h3{
+	color: #FFCC00;
+	background: transparent;
+	font-size: large;
+	text-align: left;
+	font-weight: normal;
+	display: inline;
+}
+
+hr.line
+{
+	color:#FFCC00;
+	background-color: #FFCC00;
+	clear: both;
+	height: 1px;
+	border: 0px;
+	width: 100%;
+}
+
+hr
+{
+	color: #000033;
+	background: transparent;
+	border: 0px;
+}
+
+img
+{
+	border: none;
+}
+
+input {
+  width: 20em;
+}
+
+div.deptlinks {
+  width:100%;
+  text-align: center;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+ul.links {
+  margin: 1% 5% 0 5%;
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+
+ul.links li {
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+ul.plain {
+  list-style: none;
+}
+
+#content
+{
+	margin-left: 210px;
+	width: auto;
+}
+
+/*LEFT HAND MENU STYLE*/
+
+#menu
+{
+	float:left;
+	width: 180px;
+	background: #111133;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#menu dd
+{
+	margin:0;
+	padding-bottom:1em;
+}
+
+#menu h2
+{
+	background:#111133;
+}
+
+#menu a
+{
+	background:#111133;
+}
+
+/*GRADLINKS LIST STYLE*/
+.gradlinks
+{
+	list-style: none;
+	text-align: center;
+	line-height:1.5em;
+}
+
+
+/*REPORT FORM STYLE*/
+.report
+{
+	line-height:3em;
+}
+
+textarea
+{
+	width: 100%;
+}
+
+
+/*FLEET TABLE STYLE*/
+
+.formatted
+{
+	width: 100%;
+	border: thin solid #FFCC00;
+}
+
+.formatted th
+{
+	color: #FFCC00;
+	background-color: #111133;
+	text-align:center;
+	border: none;
+	padding: 0.5em;
+}
+
+.formatted td
+{
+	background-color: #111133;
+	border: none;
+	padding: 0.5em;
+	vertical-align: top;
+}
+
+.formatted td.critical
+{
+	background-color: #CC3333;
+}
+
+.formatted td.warning
+{
+	background-color: #CC6633;
+}
+
+.motd td
+{
+	font-weight: bold;
+}
+
+/* MOTD ROSTER STYLES */
+
+#roster_table
+{
+	width: 100%;
+	border: thin solid #FFCC00;
+	font-weight: bold;
+}
+
+#roster_table th
+{
+	color: #FFCC00;
+	background-color: #111133;
+	text-align:left;
+	border: none;
+	padding: 0.1em;
+}
+
+#roster_table td
+{
+	background-color: #111133;
+	border: none;
+	padding: 0.1em;
+}
+
+#roster_table caption
+{
+	color: #FFCC00;
+	background-color: transparent;
+	font-size: x-large;
+	text-align:center;
+	font-weight: normal;
+	padding: 0.5em 0 1em 0;
+}
+
+#roster_table caption a
+{
+	font-weight: normal;
+}
+
+#roster form
+{
+	margin: 0;
+}
+
+#roster
+{
+	font-weight: bold;
+}
+
+/* HEADER STYLES */
+
+#commandants
+{
+  margin-left: 115px;
+  margin-right: 115px;
+  width: auto;
+  color:#FFCC00;
+  background: transparent;
+  font-size:small;
+  font-weight: bold;
+  text-align:center;
+}
+
+#acmdt { 
+  width:100%;
+  float: left;
+}
+
+#vcmdt { 
+  width:49%;
+  float: left;
+}
+
+#aflo { 
+  width:49%;
+  float: right;
+}
+
+div.stflogo {
+  float: left;
+  width: 112.5px;
+  height: 112.5px;
+}
+
+div.stflogo img, div.acadlogo img{
+  width: 100%;
+  height: 100%;
+}
+
+div.acadlogo {
+  float: right;
+  width: 112.5px;
+  height: 100.5px;
+  position: relative;
+  top: 8px;
+}
+
+
+/* BOTTOM MOTD TEXT STYLES */
+
+#lastmodified
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	color:#FFCC00;
+	background: transparent;
+	font-weight: bold;
+}
+
+center
+{
+	float: right;
+}
+
+small
+{
+	font-size: 100%;
+	color:#FFCC00;
+	background: transparent;
+	font-weight: bold;
+}

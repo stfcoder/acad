@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+  
+
+	RewriteEngine on
+
+	RewriteBase /acad/
+
+	RewriteRule ^$ /webb/acad [L]
+
+
+</IfModule>
+
+
+

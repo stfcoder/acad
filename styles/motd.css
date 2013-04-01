@@ -1,0 +1,106 @@
+/* CSS Document */
+body
+{
+background-color: #000033;
+margin-top: 0;
+margin-left: 0;
+color:#FFFFFF;
+font-size:12pt;
+text-align:left;
+}
+
+td
+{
+FONT-SIZE: 10pt; 
+COLOR: #FFFFFF; 
+FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+text-align:left;
+}
+
+td.nav
+{
+FONT-SIZE: 10pt; 
+COLOR: #FFFFFF; 
+FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+text-align:center;
+}
+
+p.title
+{color:#FFCC00;
+font:"Times New Roman";
+font-size:24pt;
+text-align:center;
+}
+
+p.subtitle
+{color:#FFCC00;
+font:"Times New Roman";
+font-size:18pt;
+}
+
+p.positions
+{color:#FFCC00;
+font:"Times New Roman";
+font-size:10pt;
+font-style:italic;
+text-align:left;
+}
+
+p.footer
+{color:#FFFFFF;
+font-size:10pt;
+text-align:center;
+font-style: italic;
+}
+
+p.center
+{text-align:center;
+}
+
+a.pages:LINK, a.pages:VISITED
+{
+color:#80C0FF;
+text-decoration:none;
+font-weight:bold;
+font-style:normal;
+}
+
+a.pages:HOVER {
+color : #FFFFFF;
+text-decoration : none;
+font-weight:bold;
+font-style:normal;
+}
+
+a, a.active, a.visited
+{color:#FFFFFF;
+font-style:normal;
+font-weight:normal;}
+
+a.email
+{color:#FFFFFF;
+font-style:normal;
+font-weight:normal;
+}
+
+a.topemail
+{color:#FFFFFF;
+font-style:normal;
+font:"Times New Roman";
+font-size:16pt;
+text-align:center;
+}
+
+td.subpositions{
+color : #80C0FF;
+text-decoration:none;
+font-weight:bold;
+font-style:normal;
+}
+
+p.subpositions{
+color : #80C0FF;
+text-decoration:none;
+font-weight:bold;
+font-style:normal;
+}
